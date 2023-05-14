@@ -22,5 +22,6 @@ from model import views
 
 urlpatterns = [
     path("", views.index, name='home'),
+    path("predict/", views.predict, name='predictions'),
 ]
 
